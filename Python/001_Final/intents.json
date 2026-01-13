@@ -1,0 +1,114 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hola", "hi", "yo", "howdy", "greetings", "salutations", "whats up", "sup", "good morning", "good afternoon", "hey"],
+      "responses": ["Hello.", "Hi there.", "Hey.", "Greetings.", "Good to see you.", "How can I help?", "Welcome.", "Hi, what do you need?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["I gotta go", "bye", "good bye", "see ya", "cya", "cu", "gtg", "waves", "toots", "ttyl", "peace"],
+      "responses": ["Goodbye.", "See you later.", "Take care.", "Have a good day.", "See you next time.", "Bye."]
+    },
+    {
+      "tag": "Crafting",
+      "patterns": ["How to Craft a Rail", "How to build a beacon now?", "Are Netherite prices high?", "how do i craft rails", "how do i craft beacon", "beacon recipe"],
+      "responses": ["To craft rails, place 6 iron ingots and 1 stick in a crafting table.", "A beacon requires 3 obsidian, 5 glass, and a Nether Star.", "Netherite is rare and requires mining ancient debris in the Nether."]
+    },
+    {
+      "tag": "Gear and Enchantments",
+      "patterns": ["Best armor enchantments", "Best tool enchantments", "Best weapon enchantments", "Best sword", "Best pickaxe", "what enchants should i get"],
+      "responses": ["Armor enchantments commonly used are Protection IV, Unbreaking III, and Mending.", "Tools are usually enchanted with Efficiency V, Unbreaking III, Mending, and Fortune III or Silk Touch.", "Swords are typically enchanted with Sharpness V or Smite V, Looting III, Unbreaking III, and Mending."]
+    },
+    {
+      "tag": "How to start in Minecraft",
+      "patterns": ["How to start playing Minecraft", "First Steps in a new world", "Last Step in Minecraft", "Is Minecraft Hard to play?", "what do i do first"],
+      "responses": ["Start by gathering wood, crafting basic tools, and building a shelter before night.", "Early gameplay focuses on survival, resource gathering, and crafting.", "After defeating the Ender Dragon, the game becomes open-ended.", "Minecraft is easy to learn at the beginning and becomes more complex over time."]
+    },
+    {
+      "tag": "In-game Mechanics",
+      "patterns": ["What is a GPU needed for in Minecraft?", "What are the best graphics settings for FPS", "How does Redstone work", "why is my fps low"],
+      "responses": ["The GPU is responsible for rendering visuals and handling shaders.", "Lowering render distance, disabling clouds, and using Fast graphics can improve FPS.", "Redstone functions as a power and logic system for creating mechanisms and automation."]
+    },
+    {
+      "tag": "Pvp",
+      "patterns": ["Best Pvp Method", "Worst Pvp method", "Worest Pvp method", "How to pvp", "what is pvp", "how do i win pvp"],
+      "responses": ["PvP effectiveness depends on practice, equipment, and timing.", "No single PvP method works best for everyone.", "Learning movement, hit timing, and item usage improves PvP performance.", "PvP stands for Player versus Player."]
+    },
+    {
+      "tag": "Bases",
+      "patterns": ["How do I hide my base", "Where do I build my base", "What should I build in my base", "how do i make a secret base"],
+      "responses": ["Hidden bases are often built underground or far from common travel paths.", "Bases are usually safest when built away from spawn and major structures.", "Common base features include storage, enchanting areas, farms, and villager trading."]
+    },
+    {
+      "tag": "Fair Play",
+      "patterns": ["What's the best Hack", "Whats the best hack client", "How do I Hack", "Is hacking good", "free hacked client", "how to get hacks"],
+      "responses": ["Using hacks on servers that do not allow them is against the rules.", "Hacking can negatively affect multiplayer gameplay.", "For experimentation, creative mode or commands are safer alternatives."]
+    },
+    {
+      "tag": "Mining",
+      "patterns": ["best y level for diamonds", "where do i find diamonds", "how do i find netherite", "best y for iron", "strip mining"],
+      "responses": ["Diamonds are most commonly found at lower Y levels.", "Netherite is obtained by mining ancient debris in the Nether.", "Iron is commonly found in caves and mountain biomes."]
+    },
+    {
+      "tag": "Nether",
+      "patterns": ["how do i get blaze rods", "how do i find a fortress", "best nether tips", "nether portal tips", "nether is hard"],
+      "responses": ["Blaze rods are obtained by defeating blazes in Nether fortresses.", "Fortresses generate in long structures across the Nether.", "Bringing fire resistance potions improves Nether survival."]
+    },
+    {
+      "tag": "The End",
+      "patterns": ["how do i beat the ender dragon", "how do i get elytra", "end city", "how do i find end cities"],
+      "responses": ["Defeating the Ender Dragon requires destroying end crystals and attacking the dragon.", "Elytra are found on End City ships.", "End Cities generate in the outer End islands."]
+    },
+    {
+      "tag": "Villagers and Trading",
+      "patterns": ["how do i get mending", "villager trades", "how to cure a villager", "best villager jobs"],
+      "responses": ["Mending is obtained from librarian villagers.", "Curing villagers requires a weakness potion and a golden apple.", "Popular villager jobs include librarian, farmer, and armorer."]
+    },
+    {
+      "tag": "Farms",
+      "patterns": ["best starter farm", "how do i make an xp farm", "iron farm", "food farm ideas", "mob farm"],
+      "responses": ["Starter farms often include crops and animals.", "XP farms can be built using spawners or mob grinders.", "Iron farms provide a consistent source of iron ingots."]
+    },
+    {
+      "tag": "Building Ideas",
+      "patterns": ["what should i build", "cool base ideas", "house ideas", "build ideas for survival", "what to build in minecraft"],
+      "responses": ["Building styles often match the surrounding biome.", "Popular builds include mountain bases, underground bases, and ocean structures.", "Adding depth and detail improves build appearance."]
+    },
+    {
+      "tag": "Food and Survival",
+      "patterns": ["best food in minecraft", "how do i not die", "early game food", "how to survive first night"],
+      "responses": ["Steak and golden carrots provide high food value.", "A bed helps skip nighttime dangers.", "Carrying food and basic supplies improves survival."]
+    },
+    {
+      "tag": "Brewing and Potions",
+      "patterns": ["how to brew potions", "what potions should i make", "fire resistance potion", "strength potion", "slow falling potion"],
+      "responses": ["Brewing requires a brewing stand, nether wart, and potion ingredients.", "Fire resistance, strength, and healing potions are commonly used.", "Slow falling potions are useful in the End."]
+    },
+    {
+      "tag": "Mobs and Combat",
+      "patterns": ["how do i kill a creeper", "how do i deal with skeletons", "how do i fight endermen", "best way to fight mobs"],
+      "responses": ["Keeping distance helps avoid creeper explosions.", "Shields are effective against skeleton attacks.", "Endermen can be fought safely under low ceilings."]
+    },
+    {
+      "tag": "Exploration",
+      "patterns": ["how do i find a village", "how do i find structures", "best way to explore", "how do i find a stronghold"],
+      "responses": ["Villages commonly generate in plains and desert biomes.", "Eyes of Ender are used to locate strongholds.", "Tracking coordinates helps prevent getting lost."]
+    },
+    {
+      "tag": "Servers and Multiplayer",
+      "patterns": ["how do i make a server", "how do i join a server", "best rules for smp", "how do i stop griefing"],
+      "responses": ["Servers can be hosted locally or through a hosting provider.", "Rules help maintain fair multiplayer gameplay.", "Backups and moderation tools help prevent griefing."]
+    },
+    {
+      "tag": "Commands",
+      "patterns": ["what is /tp", "how do commands work", "how do i use gamerules", "give me a command", "what is a command block"],
+      "responses": ["Commands are administrative tools used to control gameplay.", "/tp is used for teleportation.", "Gamerules adjust world behavior."]
+    },
+    {
+      "tag": "Performance and Lag",
+      "patterns": ["minecraft is lagging", "low fps", "how do i boost fps", "best settings for performance", "stutters"],
+      "responses": ["Lowering render distance can improve performance.", "Closing background programs may increase FPS.", "Excess entities can cause server lag."]
+    }
+  ]
+}
